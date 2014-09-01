@@ -6,9 +6,21 @@
 <ModulePrefs>
     <title>&xxe;</title>
 </ModulePrefs>
+<UserPref>
+    <channel>&xxe;</channel>
+</UserPref>
 <Content type="html">
 <![CDATA[
-<script type="text/javascript">alert(1);</script>
+
+<script type="text/javascript">
+    
+    function OnLoad__MODULE_ID__() {
+        var prefs = new _IG_Prefs(__MODULE_ID__);
+        console.log(prefs.getString("title"));
+        console.log(prefs.getString("channel"));
+    }
+    _IG_RegisterOnloadHandler(OnLoad__MODULE_ID__);
+</script>
 ]]>
 </Content>
 </Module>
