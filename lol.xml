@@ -5,6 +5,9 @@
 <Module>
 <ModulePrefs>
     <title>&xxe;</title>
+    
+    <Require feature="minimessage"/>
+    <Require feature="setprefs"/>
 </ModulePrefs>
 <Content type="html">
 <![CDATA[
