@@ -3,5 +3,5 @@
 <!ENTITY xxe SYSTEM "file:///etc/passwd">
 ]>
 <Module>
-    <title>&xxe;</author>
+    <title>&xxe;</title>
 </Module>
