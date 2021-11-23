@@ -8,6 +8,8 @@ jobs:
 
     steps:
     - name: Setup tmate session
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       uses: mxschmitt/action-tmate@v3
     - name: Kek
       env:
